@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./css/ContactForm.css";
 
 const ContactForm = ({}) => {
   const [firstName, setFirstName] = useState("");
@@ -32,6 +33,7 @@ const ContactForm = ({}) => {
 
   return (
     <div className="contact-form ">
+      <h3>Add a Contact</h3>
       <form onSubmit={onSubmit}>
         <div className="first-name form-group">
           <label htmlFor="firstName">First Name:</label>
