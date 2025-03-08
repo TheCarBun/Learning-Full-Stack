@@ -43,3 +43,35 @@
 .read-the-docs {
   color: #888;
 }
+
+button {
+  margin-top: 20px;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.548);
+}
+
+.modal-content {
+  background-color: #333;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.close {
+  cursor: pointer;
+  color: #ccc;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
