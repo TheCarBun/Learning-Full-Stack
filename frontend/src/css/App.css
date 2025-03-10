@@ -48,6 +48,12 @@ button {
   margin-top: 20px;
 }
 
+button:focus {
+  border: 2px solid #646cffaa;
+  outline: none;
+  box-shadow: 0 0 5px #646cffaa;
+}
+
 .modal {
   position: fixed;
   z-index: 1;
@@ -60,10 +66,10 @@ button {
 }
 
 .modal-content {
-  background-color: #333;
+  background-color: #222;
   margin: 10% auto;
   padding: 20px;
-  border: 1px solid #888;
+  border: 1px solid #444;
   border-radius: 10px;
   width: fit-content;
 }

@@ -5,7 +5,7 @@ table {
 }
 
 thead tr {
-  background-color: #3a3a3a;
+  background-color: #3d429eaa;
 }
 
 th {
@@ -20,4 +20,10 @@ td {
 
 tbody button {
   margin: 0 5px;
+}
+
+tbody button:focus {
+  border: 2px solid #646cffaa;
+  outline: none;
+  box-shadow: 0 0 5px #646cffaa;
 }

@@ -37,7 +37,7 @@ const ContactForm = ({ existingContact = {}, updateCallback }) => {
 
   return (
     <div className="contact-form ">
-      <h3>Add a Contact</h3>
+      <h2>Add a Contact</h2>
       <form onSubmit={onSubmit}>
         <div className="first-name form-group">
           <label htmlFor="firstName">First Name:</label>
