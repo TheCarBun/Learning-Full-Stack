@@ -6,6 +6,8 @@
 
 This project is a learning exercise to link a Flask backend with a React frontend, following TechWithTim's YouTube tutorial.
 
+![Demo GIF](demo.gif)
+
 ## Project Structure
 
 - `frontend/`: Contains the React frontend application.
